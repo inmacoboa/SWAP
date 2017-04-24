@@ -139,7 +139,12 @@ Como podemos ver en la imagen, ha tardado 7.866 segundos en realizar 10000 petic
 ### Tabla comparativa de resultados ##
 
 |			| nginx | haproxy |
-|-----------|-------|---------|
-|no se que  | x		| y		  |
+|-----------|:-------:|:---------:|
+|Tiempo total de ejecución  | 27.575		| 7.866	  |
+|Operaciones fallidas  | 0	| 0	  |
+|Operaciones por segundo  | 362.65		| 1271.34  |
+|Tiempo por petición  | 1378.748	| 393.285	  |
+
+
 
 
