@@ -135,3 +135,11 @@ Para probar la granja web, ejecutamos igual que en el caso anterior:
 ![terminal9](https://github.com/inmacoboa/SWAP1617/blob/master/Practica3/imagenes/10.png)
 
 Como podemos ver en la imagen, ha tardado 7.866 segundos en realizar 10000 peticiones, ejecutadas de 500 en 500. Además podemos ver que no ha fallado ninguna operación y, por tanto, no se ha saturado.
+
+### Tabla comparativa de resultados ##
+
+|			| nginx | haproxy |
+|-----------|-------|---------|
+|no se que  | x		| y		  |
+
+
