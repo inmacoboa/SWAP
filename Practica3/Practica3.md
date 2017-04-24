@@ -145,6 +145,6 @@ Como podemos ver en la imagen, ha tardado 7.866 segundos en realizar 10000 petic
 |Operaciones por segundo  | 362.65		| 1271.34  |
 |Tiempo por petición  | 1378.748	| 393.285	  |
 
-
+Como podemos observar en la tabla anterior, haproxy da mejores resultados puesto que los tiempos son menores, es decir, ha tardado menos en ejecutar las mismas peticiones. Aún así, podemos comprobar que ninguno de los dos se ha saturado al ejecutarlas.
 
 
