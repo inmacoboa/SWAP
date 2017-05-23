@@ -45,7 +45,7 @@ En primer lugar, comprobamos el estado del cortafuegos con el siguiente comando:
 
 y vemos en la siguiente imagen dicho estado.
 
-![Estado Cortafuegos](https://github.com/inmacoboa/SWAP1617/blob/master/Practica4/imagenes/estadoCortaguegos.png)
+![Estado Cortafuegos](https://github.com/inmacoboa/SWAP1617/blob/master/Practica4/imagenes/estadoCortafuegos.png)
 
 A continuación, pasamos a denegar cualquier tráfico de información, para ello, ejecutamos lo siguiente:
 
@@ -55,7 +55,7 @@ A continuación, pasamos a denegar cualquier tráfico de información, para ello
 
 y volvemos a comprobar con la orden anterior el estado del cortafuegos, el cual se muestra en la siguiente imagen.
 
-![Estado Cortafuegos 2](https://github.com/inmacoboa/SWAP1617/blob/master/Practica4/imagenes/estadoCortaguegos2.png)
+![Estado Cortafuegos 2](https://github.com/inmacoboa/SWAP1617/blob/master/Practica4/imagenes/estadoCortafuegos2.png)
 
 Ahora, permitimos el tráfico de salida y bloqueamos el de entrada con los siguientes comandos:
 
@@ -66,7 +66,7 @@ Ahora, permitimos el tráfico de salida y bloqueamos el de entrada con los sigui
 
 y comprobamos con la primera orden el estado del cortafuegos.
 
-![Estado Cortafuegos 3](https://github.com/inmacoboa/SWAP1617/blob/master/Practica4/imagenes/estadoCortaguegos3.png)
+![Estado Cortafuegos 3](https://github.com/inmacoboa/SWAP1617/blob/master/Practica4/imagenes/estadoCortafuegos3.png)
 
 Seguimos los pasos del guión y bloqueamos todo el tráfico ICMP para evitar ataques como el del ping de la muerte, para ello:
 
@@ -74,7 +74,7 @@ Seguimos los pasos del guión y bloqueamos todo el tráfico ICMP para evitar ata
 
 y comprobamos el estado del cortafuegos.
 
-![Estado Cortafuegos 4](https://github.com/inmacoboa/SWAP1617/blob/master/Practica4/imagenes/estadoCortaguegos4.png)
+![Estado Cortafuegos 4](https://github.com/inmacoboa/SWAP1617/blob/master/Practica4/imagenes/estadoCortafuegos4.png)
 
 El siguiente paso es abrir el puerto 22 para permitir el acceso por SSH:
 
@@ -83,7 +83,7 @@ El siguiente paso es abrir el puerto 22 para permitir el acceso por SSH:
 
 y comprobamos el estado del cortafuegos.
 
-![Estado Cortafuegos 5](https://github.com/inmacoboa/SWAP1617/blob/master/Practica4/imagenes/estadoCortaguegos5.png)
+![Estado Cortafuegos 5](https://github.com/inmacoboa/SWAP1617/blob/master/Practica4/imagenes/estadoCortafuegos5.png)
 
 El siguiente paso es abrir los puertos 80 y 443 de HTTP y HTTPS para la configuración de un servidor:
 
@@ -92,7 +92,7 @@ El siguiente paso es abrir los puertos 80 y 443 de HTTP y HTTPS para la configur
 
 y comprobamos de nuevo el estado del cortafuegos.
 
-![Estado Cortafuegos 6](https://github.com/inmacoboa/SWAP1617/blob/master/Practica4/imagenes/estadoCortaguegos6.png)
+![Estado Cortafuegos 6](https://github.com/inmacoboa/SWAP1617/blob/master/Practica4/imagenes/estadoCortafuegos6.png)
 
 Ahora abrimos el puerto 53 para permitir el acceso a DNS:
 
@@ -101,7 +101,7 @@ Ahora abrimos el puerto 53 para permitir el acceso a DNS:
 
 y comprobamos el estado del cortafuegos.
 
-![Estado Cortafuegos 7](https://github.com/inmacoboa/SWAP1617/blob/master/Practica4/imagenes/estadoCortaguegos7.png)
+![Estado Cortafuegos 7](https://github.com/inmacoboa/SWAP1617/blob/master/Practica4/imagenes/estadoCortafuegos7.png)
 
 Por último, bloqueamos todo el tráfico de entrada y de salida desde una IP:
 
@@ -110,7 +110,7 @@ Por último, bloqueamos todo el tráfico de entrada y de salida desde una IP:
 
 y comprobamos el estado del cortafuegos.
 
-![Estado Cortafuegos 8](https://github.com/inmacoboa/SWAP1617/blob/master/Practica4/imagenes/estadoCortaguegos8.png)
+![Estado Cortafuegos 8](https://github.com/inmacoboa/SWAP1617/blob/master/Practica4/imagenes/estadoCortafuegos8.png)
 
 También podemos evitar el acceso a facebook por ejemplo:
 
@@ -118,7 +118,7 @@ También podemos evitar el acceso a facebook por ejemplo:
 
 y mostramos el cortafuegos.
 
-![Estado Cortafuegos 9](https://github.com/inmacoboa/SWAP1617/blob/master/Practica4/imagenes/estadoCortaguegos9.png)
+![Estado Cortafuegos 9](https://github.com/inmacoboa/SWAP1617/blob/master/Practica4/imagenes/estadoCortafuegos9.png)
 
 ##### Creación de un script que se ejecute en el arranque del sistema. #####
 
