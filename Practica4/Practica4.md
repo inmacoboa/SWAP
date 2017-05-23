@@ -122,8 +122,5 @@ y mostramos el cortafuegos.
 
 ##### Creación de un script que se ejecute en el arranque del sistema. #####
 
-![Script](https://github.com/inmacoboa/SWAP1617/blob/master/Practica4/imagenes/script.png)
-
-Para terminar, para que este archivo se ejecute al arrancar la máquina, tenemos que añadir al archivo de crontab la siguiente linea:
-
-	@reboot /home/inma/script-iptables.sh 
+![Script](https://github.com/inmacoboa/SWAP1617/blob/master/Practica4/imagenes/scriptmodificado.png)
+ 
